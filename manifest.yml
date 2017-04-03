@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Cognitive Sales Feedback POC
+  host: Cognitive-Sales-Feedback-POC
+  disk_quota: 1024M
+  services:
+  - Cognitive Sales Feedback POC-cloudantNoSQLDB
